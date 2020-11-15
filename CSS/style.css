@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.myMargin{
+    margin: 15px;
+}
+
+/* P boxes */
+body{
+    background-size: cover;
+}
+
+.container{
+    /* border: 2px solid black; */
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.p-box{
+    border: 3px solid white;
+    width: 22%;
+    float: left;
+    margin-left: 25px;
+    height: 10.67em;
+    padding: 5px;
+    background-color: #cccccc;
+    align-items: center;
+}
+
+.p-box h5{
+    text-align: center;
+    /* text-transform: capitalize; */
+}
+
+.p-box p{
+    line-height: 1.25em;
+    text-align: justify;
+}
+
+.p-box a{
+    text-decoration: none;
+    color:black;
+}
+
+/* Start For Individual District Page - Picture alignment */
+.container-dp{
+    /* border: 2px solid black; */
+    margin-top: 3%;
+    margin-left: 12.8%;
+}
+.dp-box{
+    border: 3px solid white;
+    width: 22%;
+    float: left;
+    margin-left: 25px;
+    height: 10.67em;
+    padding: 5px;
+    background-color: #cccccc;
+    align-items: center;
+}
+
+.dp-box h5{
+    text-align: center;
+    /* text-transform: capitalize; */
+}
+
+
+.dp-box a{
+    text-decoration: none;
+    color:black;
+}
+/* End For Individual District Page - Picture alignment */
+
+/* Start For Individual District Page - Description box */
+.container-d{
+    /* border: 2px solid black; */
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.d-box{border: 3px solid white;
+    width: 70%;
+    float: left;
+    margin-left: 13%;
+    height: 10.67em;
+    padding: 20px;
+    background-color: #cccccc;
+    align-items: center;
+}
+
+.d-box p{
+    line-height: 1.25em;
+    text-align: justify;
+}
+/* End For Individual District Page - Description box */
+
+
+/* Footer */
+/* footer{ */
+    /* background-color: black; */
+    /* color: white; */
+    /* height: 1.5em; */
+    /* margin-top: 33%; */
+/* } */
+
+/* footer h3{ */
+    /* text-align: center; */
+/* } */
+
+/* Meter Display Starts */
+#meterEmpty{
+    background-color:grey;
+    margin-top: 7Px;
+    margin-bottom: 7px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 20px;
+    
+        
+    /* height: 1em; */
+}
+#meterText{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    text-align: center
+}
